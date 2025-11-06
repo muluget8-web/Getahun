@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GETAHUN</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=10">
+<style>
+.zoom {
+padding: 50px;
+background-color: green;
+transition: transform .2s; 
+width: 200px;
+height: 200px;
+margin: 0 auto;
+animation: 5ms;
+}
+.zoom:hover {
+transform: scale(1.5);
+} 
+.mask1 {
+  mask: url(<div class="LOGO">) no-repeat 50% 50%;
+  mask-clip: border-box;
+} 
+.mask2 {
+  mask: linear-gradient(black, transparent, blue);
+}
+.right {
+  float: left;
+  width: 20%; 
+}
+.main {
+  float: left;
+  width: 60%; 
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
+}
+</style>
+<style>
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dropbtn:hover {
+  background-color: #eff4f2;
+  color: rgb(177, 25, 25);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 60px;
+    font-size: 80px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(158, 116, 116)36, 7, 7);
+    z-index: 1;
+    padding: 4px;
+}
+.button1:hover {
+  background-color: #000805;
+  color: white;
+}
+.dropdown-content a {
+    color: rgb(15, 4, 4);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 80px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#borderimg {
+  border: 10px solid transparent; /* Required for border-image */
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+  body {
+  background-color: #f05a04;
+}
+slide * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+</head>
+body {
+  background-color: #04a1a4;
+}
+</style>
+<style>
+.slide {
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #4c0384;
+  transition: 5s ease;
+}
+.h1:hover {
+  background-color: #04AA6D;
+  color: rgb(247, 244, 244);
+}
+h1 {
+  color: #712db5;
+  font-weight: 40px;
+  font-size: 80px;
+  text-align: center;
+  padding: 10% 0;
+  padding-right: 30px;
+  pointer-events: none;
+  transition: cubic-bezier(0.23, 1, 0.320, 1);
+  text-align: center;
+  }
+h2 {
+  color: #ff0000;
+  font-weight: 00;
+  font-size: 80px;
+  text-align: center;
+  padding: 10% 0;
+  padding-right: 30px;
+  pointer-events: none;
+  transition: 5s;
+}
+ul li{
+  list-style: none;
+  transition: 5s;
+}
+ul li a{
+  color: rgba(246, 246, 5, 0);
+  font-weight: 00;
+  padding: 5px 0;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: 0.2s ease-out;
+}
+ul li a i {
+  width: 40px;
+  text-align: center;
+}
+input{
+  direction: none;
+  visibility: hidden;
+  -webkit-appearance: none;
+}
+.toggle{
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  background-color: #fff;
+  transition: 2s;
+}
+<style>
+</style>
+ 
+<div class="LOGO">
+   <a href="@youtuber87-q8j"><img src="I.jpg"></a>
+  <img src="I.jpg" style="float:left;"><a href="@youtuber87-q8j"</a>
+ <wbr>
+<div class="dropdown">
+  <button class="dropbtn">ABOUT ME</button>
+  <div class="dropdown-content">
+    <a href="#">who is Getahun</a>
+    <a href="#">who is work in different position</a>
+    <a href="#">Seinor expert and coordinator position</a>
+    <a href="#">lived Awi injibara former time now live in Bahirdar</a>
+    <a href="#">who is positive thinker for mother land Ethiopa</a>
+    <a href="#">influncer on compitative works</a>
+    <a href="#">am Getahun Muluneh</a>
+    <a href="#">am 47 years old</a>
+    <a href="#">live in Bahirdar city</a>
+    <a href="#">phone 0918084053/251948412664</a>
+    <a href="#">muluget8@gmail.com/getahunmuluneh95@gmail.com</a>
+    <a href="#">like digital works</a>
+  </div>
+</div>
+<wbr>
+<div class="dropdown">
+  <button class="dropbtn">LANGUAGE</button>
+  <div class="dropdown-content">
+    <a href="#">ENGLISH</a>
+    <a href="#">AMAHARIC</a>
+    <a href="#">AWIGNA</a>
+  </div>
+</div>
+<wbr>
+<div class="dropdown">
+  <button class="dropbtn">ACADAMIC</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">SOCIOLOGY(MA)</a>
+    <a href="#">BUSINESS MANAGMENT(BA)</a>
+    <a href="#">ECONOMICS(BA)</a>
+    <div class="dropdown">
+     <button class="dropbtn">ECONOMICS</button>
+    <a href="#"></a><img src="Economics.jpg">
+  </div>
+    <a href="#">NATURAL RESOURSE MANAGMENT(DA)</a>
+    <div class="dropdown">
+     <button class="dropbtn">Natural resourse Managment</button>
+    <a href="#"></a><img src="Natural resource managment.jpg">
+  </div>
+     <div class="dropdown">
+     <button class="dropbtn">Business Administration</button>
+    <a href="#"></a><img src="Business managment.jpg">
+  </div>
+    
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">EXPERIANCE</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">Project, planning, monitoring, evaluation and upraisal learning experiance</a>
+    <a href="#">youth mainstreaming and 
+      advisor</a>
+    <a href="#">gender mainstreaming protection of vaiolance</a>
+    <a href="#">Agricultur extension and coservation of natural resourse</a>
+     <div class="dropdown">
+     <button class="dropbtn">Experiance</button>
+    <a href="#"></a><img src="Experiance.jpg">
+  </div>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Award</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">Digital marketing</a>
+    <a href="#">Generative AI</a>
+    <a href="#">Google ad</a>
+    <a href="#">project success award</a>
+     <a href="#">Kaizen counsellor</a>
+    <a href="#">kaizen5 s master</a>
+    <a href="#">construction managment</a>
+     <div class="dropdown">
+     <button class="dropbtn">Gende responsive budgeting</button>
+    <a href="#"></a><img src="Gender responsive Budgeting.jpg">
+  </div>
+   <div class="dropdown">
+     <button class="dropbtn">introduction to computer</button>
+    <a href="#"></a><img src="Introduction to computer.jpg">
+  </div>
+   <div class="dropdown">
+     <button class="dropbtn">peachtree Accounting</button>
+    <a href="#"></a><img src="Peachtree Accounting.jpg">
+  </div>
+ <div class="dropdown">
+     <button class="dropbtn">project success award plan international</button>
+    <a href="#"></a><img src="project succes award of plan international.jpg">
+  </div>
+   <div class="dropdown">
+     <button class="dropbtn">ECONOMICS</button>
+    <a href="#"></a><img src="Economics.jpg">
+  </div>
+  <div class="dropdown">
+  <button class="dropbtn">BSC</button>
+    <a href="#"></a><img src="IMG_20.jpg"></div>
+  </div>
+</div>
+<div class="dropdown">
+ <button class="dropbtn">DIGITAL AWARD</button>
+  <div class="dropdown-content">
+    <a href="#">digital marketing</a>
+     <div class="dropdown">
+     <button class="dropbtn">Digital Marketing</button>
+    <a href="#"></a><img src="Digital marketing.jpg">
+  </div>
+    <a href="#">gooogle ad</a>
+     <div class="dropdown">
+     <button class="dropbtn">Google ads</button>
+    <a href="#"></a><img src="Digital marketing.jpg">
+  </div>
+    <a href="#">Generative Artificial intelagence(GAI)</a>
+     <div class="dropdown">
+     <button class="dropbtn">Generative Artificial intelagence</button>
+    <a href="#"></a><img src="Generative AI.png">
+  </div>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"> Media</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">Youtube</a>
+    <a href="#"><Tik-Tok>TikTok</Tik-Tok></a>
+    <a href="#">Facebook</a>
+    <a href="#">Telegram</a>
+    <a href="#">geta.hun2020</a>
+    <a href="#">linkedin</a>
+    <a href="#">Twitter(X)</a>
+    <a href="#"></a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Skill</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">communication skill</a>
+    <a href="#">video edditing skill</a>
+    <a href="#">problem solving skill</a>
+    <a href="#">typing and writing skill</a>
+    <a href="#">advertizing skill</a>
+    <a href="#">logo designing skill</a>
+    <a href="#">webe development skill</a>
+    <a href="#">digital marketing skill</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"></button>
+    <a href="#"></a>
+</div>
+</div>
+</STYLE>
+</head>
+<body>
+<h> <img src="2.jpg" style="float:right;width:4200px;height:420opx;">
+WELCOME TO THIS MY PROFIL PAGE GETHUN MULUNEH </h>
+<video align="center" width="320" height="240" controls;>
+  <source src="v-1.mp4" type="video/mp4">
+  </video>
+   <input type="checkbox">
+    <div class="toggle">
+      <span class="top_line"></span>
+      <span class="middle_line"></span>
+      <span class="bottom_line"></span>
+    </div>
+  <div class="slide">
+    <h2>MENU</h2>
+    <UL>
+      <li><a href="#"><i class="fas fa-tv"></a></i>dashboard</a></li>
+       <li><a href="#"><i class="fas fa-user"></a></i>profile</a></li>
+        <li><a href="#"><i class="fas fa-gripe fire"></a></i>trending</a></li>
+         <li><a href="#"><i class="fas fa-comments"></a></i>meseages</a></li>
+          <li><a href="#"><i class="fas fa-folder"></a></i>file manager</a></li>
+           <li><a href="#"><i class="fas fa-adress book"></a></i>portfolio</a></li>
+            <li><a href="#"><i class="fas fa-heart"></a></i>saved</a></li>
+             <li><a href="#"><i class="fas fa-cogs"></a></i>settings</a></li>
+    </UL>
+    
+  <a href="@youtuber87-q8j"><img src=""></a>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PwWHL3RyQgk?si=0-raxfSb22U0w_b1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="video">
+  <video controls>
+   <source src="v-1.mp4" type="v-1.mp4">
+   <source src="movie.ogg" type="v-mp4">
+</video>
+</div>
+<div id="header">
+</div>
+<div id="content">
+</div>
+<div id="footer">
+</div>
+ <footer><div class="footer">
+  <button class="footer">twetter</button>
+  <button class="footer">@getahun_MU23130</button>
+  <button class="footer">twetter</button>
+  <button class="footer">@getahun_MU23130</button>
+  <button class="footer">twetter</button>
+  <button class="footer">@getahun_MU23130</button>
+  <button class="footer">twetter</button>
+  <button class="footer">@getahun_MU23130</button>
+  <button class="footer">twetter</button>
+  <button class="footer">@getahun_MU23130</button>
+  <div class="data-container">
+<span class="btn">Hover Me </span>
+</div>
+  <link rel="x" href="@getahun_MU23130">
+  <div class="content" style="margin-left: ;">
+    <a href="#">@getahun_mu23130</a></footer>
+  </div>
+  <p>Author:Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@examle.com</a></p>
+    <div class="footer">@copy</div>
+    <div cl
+  </body>
+</html>
